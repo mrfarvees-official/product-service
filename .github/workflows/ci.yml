@@ -31,5 +31,6 @@ jobs:
           -Dsonar.host.url=https://sonarcloud.io
           -Dsonar.projectKey=mrfarvees-official_product-service
           -Dsonar.organization=mrfarvees-official
+          -Dsonar.branch.name=main
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
